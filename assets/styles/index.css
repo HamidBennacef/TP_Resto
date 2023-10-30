@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "allura";
+  src: url(../fonts/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.section-1 {
+  background: url(/assets/img/bg-slider-06.jpg) center/cover;
+  height: 100vh;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main-header h1 {
+  font-family: "allura";
+  color: rgb(63, 61, 23);
+}
+.main-header h2 {
+  font-family: "poppins";
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 6px;
+  font-size: 2.3rem;
+}
+.main-header p {
+  font-family: "poppins";
+  letter-spacing: 3px;
+  color: rgb(203, 203, 203);
+}
+
+.section-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.hd-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px dashed;
+}
+
+.hd-right {
+  background: url(/assets/img/store-01.jpg) center/cover;
+  height: 250px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgb(234, 232, 232);
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav ul li {
+  padding: 20px;
+}
+
+nav h3 {
+  font-family: "allura";
+  font-size: 1.3rem;
+  margin-right: 60px;
+}
+
+nav {
+  font-family: "roboto";
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}/*# sourceMappingURL=index.css.map */
