@@ -1,3 +1,6 @@
+header{
+    height: 1200px;
+}
 .section-1{
     background: url(/assets/img/bg-slider-06.jpg) center/cover ;
     height: 100vh;
@@ -8,11 +11,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    margin-top: -120px;
+    
 
 
     h1{
         font-family: "allura";
-        color: rgb(63, 61, 23);
+        color: rgb(84, 80, 4) ;
+
     }
 h2{
     font-family: "poppins";
@@ -33,14 +40,43 @@ p{
 .section-2{
     display: grid;
     grid-template-columns: 50% 50%;
+    background: white;
 }
 .hd-left{
     display: flex;
     flex-direction: column;
-    border: 1px dashed;
-
+    border: 1px dashed rgb(84, 80, 4) ;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 5px;
+    h3{
+        font-family: "allura";
+    color: rgb(84, 80, 4);
+    font-size: 1.7rem;
+    }
+#our{
+    font-family: "poppins";
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+p{
+    align-items: center;
+    text-align: center;
+}
+    }
+    img{
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+    .img-left{
+        height: 25px;
+        width: 25px;
+  
     }
     .hd-right{
-        background: url(/assets/img/store-01.jpg) center/cover; height: 250px;
+        background: url(/assets/img/store-01.jpg) center/cover; height: 300px;
     }
 

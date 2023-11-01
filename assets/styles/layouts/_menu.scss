@@ -1,9 +1,27 @@
-.parent {
+.grid-menu {
     display: grid;
-    grid-template-columns: 100px 200px 1fr 100px 200px 1fr;
+    grid-template-columns: 50px 200px 10px 100px 200px 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-row-gap: 50px;
+    background: rgb(255, 250, 250);
+    color: black;
+  max-width: 600px;
+    margin: 0 auto;
+
+
+  
+   
+h4{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: "roboto";
+}
+p{
+    font-size: 1rem;
+    font-family: "roboto";
+    font-size: 0.8rem;
+}
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -30,3 +48,117 @@
     .div22 { grid-area: 2 / 6 / 3 / 7; }
     .div23 { grid-area: 3 / 6 / 4 / 7; }
     .div24 { grid-area: 4 / 6 / 5 / 7; }
+   
+    .div1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+     }
+ 
+    .div9{
+    display: flex;
+
+    flex-direction: column;}
+.div10{ display: flex;
+
+    flex-direction: column;}
+.div11{ display: flex;
+
+    flex-direction: column;}
+.div12{ display: flex;
+
+    flex-direction: column;}
+.div13{ display: flex;
+
+    flex-direction: column;}
+.div14{ display: flex;
+
+    flex-direction: column;}
+.div15{ display: flex;
+
+    flex-direction: column;}
+.div16{ display: flex;
+
+    flex-direction: column;}
+
+ 
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div17 p {
+margin: 10px auto;
+  color: rgb(198, 190, 30);
+  font-size: 1.1rem;
+padding-right: 70px;
+
+}
+
+
+.div21 p{
+    margin: 10px auto;
+    color: rgb(198, 190, 30);
+    font-size: 1.1rem;
+}
+.div18 p {   margin: 10px auto;
+    color: rgb(198, 190, 30);
+    font-size: 1.1rem;}
+.div19 p {
+    margin: 10px auto;
+    color: rgb(198, 190, 30);
+    font-size: 1.1rem;
+}
+.div20 p {   margin: 10px auto;
+    color: rgb(198, 190, 30);
+    font-size: 1.1rem;}
+.div21 p{
+    margin: 10px auto;
+    color: rgb(198, 190, 30);
+    font-size: 1.1rem;
+}
+.div22 p {
+    margin: 10px auto;
+    color: rgb(198, 190, 30);
+    font-size: 1.1rem;
+}
+.div23 p {   margin: 10px auto;
+    color: rgb(198, 190, 30);
+    font-size: 1.1rem;}
+.div24 p {   margin: 10px auto;
+    color: rgb(198, 190, 30);
+    font-size: 1.1rem;}
+ 
+
